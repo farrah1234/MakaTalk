@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/master.css">
+  <link rel="shortcut icon" href="./imgs/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans" rel="stylesheet">
+  <title>MakaTalk</title>
+</head>
+<body>
+
+  <div class="fill-screen-height">
+
+  <div class="dialogue-box results fill-screen-height">
+      <h2 class="dialogue-box-heading">Survey results </br>(<span id="survey-type"></span>)</h2>
+      <p id="insert-answers"></p>
+      <a href="#" id="send-results-button">Send results to my email</a>
+      <button type="button" name="button" id="finish-button">Finish</button>
+      <div id='confirm-done'>
+          <p id='confirm-done-message'>Finishing the session will delete all patient data on record.</p>
+          <a href="./storage-cleared.html">
+          <button type="button" name="button" id="confirm-done-button">OK, clear data.</button>
+          </a>
+      </div>
+  </div>
+
+</div>
+
+  <script type='text/javascript' src="./js/logic.js"></script>
+  <script type='text/javascript' src="./js/display-results.js"></script>
+  <script type='text/javascript' src="./js/send-results.js"></script>
+  <script type='text/javascript' src="./js/clear-storage.js"></script>
+
+</body>
+</html>

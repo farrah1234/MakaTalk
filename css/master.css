@@ -1,0 +1,198 @@
+/*remove default styles*/
+
+html, body {
+  margin: 0;
+  color: white;
+  background: #5144af;
+  font-family: 'Open Sans', sans-serif;
+}
+/* nav styles */
+nav {
+  border-bottom: solid white .1em;
+  background: #6b5da4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav li {
+  list-style: none;
+  background: inherit;
+  font-size: 1.5em;
+}
+.makatalk-logo {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  margin-left: .5em;
+}
+#info-button-nav {
+  height: 2em;
+  fill: white;
+  margin: .5em .8em;
+}
+
+.information-blurb {
+  max-width: 80%;
+  margin: auto;
+}
+
+.photo-background {
+  background-image: url('../imgs/hands-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.dialogue-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  padding: 1em;
+  max-width: 400px;
+  background: white;
+  color: #5144af;
+  border-radius: .5em;
+  margin-top: 6em;
+  text-align: center;
+}
+.dialogue-box-heading {
+  background: inherit;
+  color: #5144af;
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+.dialogue-box-input {
+  background: inherit;
+  border: solid #5144af .1em;
+  border-radius: .5em;
+  margin: auto;
+  width: 100%;
+  font-size: 1.5em;
+}
+.dialogue-box-text {
+  background: inherit;
+  text-align: left;
+  font-size: 1.5em;
+  line-height: 2em;
+  color: #5144af;
+}
+.main-video {
+  margin: 0 auto;
+}
+.main-video-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+}
+.thumbnail-caption {
+  text-align: center;
+}
+.thumbnail-options {
+  margin: 0em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.thumbnail-options figure {
+  display: inline-block;
+  margin: 0em;
+  padding: 0;
+  height: auto;
+  width: 100%;
+}
+.two-options figure {
+  margin: 0em;
+  margin-top: 0em;
+}
+.img-options {
+  width: 100%;
+}
+.select-survey-button, #send-results-button, #finish-button, #submit-survey-button {
+  border-style: none;
+  border-radius: .5em;
+  width: 75%;
+  margin: auto;
+  font-size: 2em;
+  color: white;
+}
+.ok-submit-survey {
+  max-width: 10em;
+  margin: auto;
+}
+.results {
+  max-width: 50%;
+  margin-top: 2em;
+}
+#pre-session-button, #send-results-button {
+  background: #5144af;
+}
+#post-session-button, #finish-button {
+  margin: 1em auto;
+  background: #d90368;
+}
+#confirm-survey-button {
+  background: #d90368;
+}
+#submit-login-button, #submit-survey-button {
+  margin-top: 1em;
+  background: #d90368;
+  width: 100%;
+}
+#insert-survey {
+  background: inherit;
+  color: #009a7b;
+  text-decoration: underline;
+}
+#insert-answers {
+  text-align: left;
+  margin-left: 4em;
+}
+.highlighted-option {
+  border: solid red 2em;
+}
+#confirm-done {
+  visibility: hidden;
+}
+#confirm-done-button {
+  color: red;
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+#exit-information {
+  height: 1.5em;
+  margin: .5em;
+  float: right;
+}
+#arrow-back {
+  float: left;
+  height: 2em;
+  margin: .5em;
+}
