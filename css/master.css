@@ -3,13 +3,13 @@
 html, body {
   margin: 0;
   color: white;
-  background: #5144af;
+  background: #565cc8;
   font-family: 'Open Sans', sans-serif;
 }
 /* nav styles */
 nav {
   border-bottom: solid white .1em;
-  background: #6b5da4;
+  background: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,6 +41,11 @@ nav li {
 .information-blurb {
   max-width: 80%;
   margin: auto;
+  margin-top: 4em;
+}
+
+.information-blurb h1 {
+  text-align: center;
 }
 
 .photo-background {
@@ -93,6 +98,7 @@ nav li {
 }
 .main-video {
   margin: 0 auto;
+  margin-top: 2em; /*recent*/
 }
 .main-video-container {
   display: -webkit-box;
@@ -108,9 +114,10 @@ nav li {
 }
 .thumbnail-caption {
   text-align: center;
+  color: white;
 }
 .thumbnail-options {
-  margin: 0em auto;
+  margin: 2em 12em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,6 +149,7 @@ nav li {
   margin: auto;
   font-size: 2em;
   color: white;
+  text-decoration: none;
 }
 .ok-submit-survey {
   max-width: 10em;
